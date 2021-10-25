@@ -6,7 +6,8 @@ const cors = require("cors");
 "use strict";
 
 const path = require("path");
-const client = require('./sqlQueries.js')
+const client = require('./sqlQueries.js');
+
 
 
 // **End of Dependencies**
@@ -65,3 +66,20 @@ app.post('/post',cors(),(req,res)=>{
        `INSERT INTO user_info_2(first_name,title,journalentry,date_col) VALUES($1,$2,$3,$4)`,
        [first_name,title,journalEntry,date_col])
 })
+
+// Edit Entries by Id 
+
+app.put('/:id',(req,res)=>{
+    const {id} = req.params
+    const {title,journalEntry} = req.body
+    client.query(
+    `UPDATE  user_info_2 SET title=($1) 
+    WHERE user_id=($2)`,
+    [title,id],
+    (err,result)=>{
+        if(err)return (console.log(err))
+       console.log("PUT response",result.row)
+      res.send(result.row)
+    })
+   
+});
