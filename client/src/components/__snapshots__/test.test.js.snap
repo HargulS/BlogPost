@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering components renders Homepage Correctly 1`] = `
+<main
+  className="homepage"
+>
+  <section
+    className="homepage__linkBtnContainer"
+  >
+    <div
+      className="homepage__btnContaier"
+    >
+      <button
+        className="homepage__btn"
+        onClick={[Function]}
+      >
+        Toggle By Date
+      </button>
+    </div>
+    <Link
+      className="homepage__link"
+      to="/postdata"
+    >
+      Post Journal Entry
+    </Link>
+  </section>
+  <section
+    className="homepage__components"
+  >
+    <div
+      className="homepage__mappedItems"
+    />
+    <div
+      className="homepage__dataBydIdComponent"
+    >
+      <DataById />
+    </div>
+  </section>
+</main>
+`;
+
+exports[`rendering components renders HomepageListItems Correctly 1`] = `
+<main
+  className="homepageList"
+>
+  <Link
+    to="/undefined"
+  >
+    <section
+      className="homepageList__listContainer"
+    >
+      <ul
+        className="homepageList__listItems"
+      >
+        <li
+          className="homepageList__listItemImgWrapper"
+        >
+          <img
+            alt=""
+            className="homepageList__listItemImg"
+          />
+        </li>
+        <li
+          className="homepageList__listItemTitle"
+        >
+          Title:
+        </li>
+        <li
+          className="homepageList__listItemAuthor"
+        >
+          Name:
+        </li>
+        <li
+          className="homepageList__listItemJournal"
+        >
+          Description:
+        </li>
+        <li
+          className="homepageList__listItemDate"
+        >
+           Date:
+        </li>
+        <li
+          className="homepageList__listItemReadMe"
+        >
+          Click To Read
+        </li>
+      </ul>
+    </section>
+  </Link>
+</main>
+`;
+
+exports[`rendering components renders PostJournalEntry Correctly 1`] = `
+<main
+  className="post"
+>
+  <section
+    className="post__formContaier"
+  >
+    <form
+      className="post__form"
+      onSubmit={[Function]}
+    >
+      <label>
+        Title:
+      </label>
+      <textarea
+        className="post__formTitle"
+        onChange={[Function]}
+        placeholder="Title"
+        type="text"
+      />
+      <label>
+        Journal Entry:
+      </label>
+      <textarea
+        className="post__formEntry"
+        onChange={[Function]}
+        placeholder="Journal Entry"
+        type="text"
+      />
+      <label
+        className="post__labelUploadImg"
+      >
+        Upload Picture
+      </label>
+      <input
+        className="post__inputUploadImg"
+        name="myImage"
+        onChange={[Function]}
+        type="file"
+      />
+      <button
+        className="form__button"
+        onClick={[Function]}
+      >
+        Submit Entry
+      </button>
+    </form>
+  </section>
+  <section
+    className="post__imageContainer"
+  />
+  <section
+    className="post__linkContainer"
+  >
+    <Link
+      className="post__link"
+      to="/"
+    >
+      Back to HomePage
+    </Link>
+  </section>
+</main>
+`;

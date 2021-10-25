@@ -1,0 +1,15 @@
+.dataById {
+  &__listUl {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+  }
+  &__listName{
+      font-weight: bold;
+      margin-bottom: 12px;
+  }
+  &__listEntry{
+      line-height: 2;
+      margin-top: 24px;
+  }
+}

@@ -1,0 +1,32 @@
+.homepageList{
+    &__listContainer{
+        border: silver 1px solid;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        min-width: 20rem; 
+        padding-left: 24px;   
+        padding-right:24px;
+       @include tab-m{
+        width:50;
+       }
+    }
+    &__listItems{
+        height: 13rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color:slategrey;
+        word-break: break-word;
+       
+       
+    }
+    &__listItemJournal{
+        height: 49px;
+        overflow: hidden;
+    }
+    &__listItemReadMe{
+        color: blue;
+        padding-bottom: 12px;
+    }
+}

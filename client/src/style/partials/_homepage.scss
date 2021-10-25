@@ -1,0 +1,46 @@
+.homepage {
+  max-width: 1600px;
+  margin: 0 auto;
+
+  &__linkBtnContainer{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 25px;
+      margin-bottom: 12px;
+  }
+  &__btn{
+      background-color:grey;
+      color: oldlace;
+      border-radius: 5px;
+  }
+  &__btn:hover{
+    background-color: honeydew;
+    color: black;
+  }
+  &__link{
+      text-decoration: none;
+      color: red;
+      font-weight: bold;
+  }
+  &__link:hover{
+      color: navy;
+  }
+  &__components {
+    display: flex;
+  }
+  &__mappedItems{
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 60%;
+  }
+  &__dataBydIdComponent{
+    border: silver .5px solid;
+    padding:24px 24px 0 24px;
+    border-radius: 5px;
+    margin-left: 24px;
+    margin-right: 24px;
+    min-width: 25rem;
+
+  }
+}

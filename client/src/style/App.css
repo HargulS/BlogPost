@@ -1,0 +1,263 @@
+.post__image {
+  width: 200px;
+  height: 100px;
+}
+
+html,
+body,
+div,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+var,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+Link {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.homepage {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.homepage__linkBtnContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.homepage__btn {
+  background-color: grey;
+  color: oldlace;
+  border-radius: 5px;
+}
+
+.homepage__btn:hover {
+  background-color: honeydew;
+  color: black;
+}
+
+.homepage__link {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+.homepage__link:hover {
+  color: navy;
+}
+
+.homepage__components {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homepage__mappedItems {
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 60%;
+}
+
+.homepage__dataBydIdComponent {
+  border: silver .5px solid;
+  padding: 24px 24px 0 24px;
+  border-radius: 5px;
+  margin-left: 24px;
+  margin-right: 24px;
+  min-width: 25rem;
+}
+
+.homepageList__listContainer {
+  border: silver 1px solid;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  min-width: 20rem;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (min-width: 950px) {
+  .homepageList__listContainer {
+    width: 50;
+  }
+}
+
+.homepageList__listItems {
+  height: 13rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: slategrey;
+  word-break: break-word;
+}
+
+.homepageList__listItemJournal {
+  height: 49px;
+  overflow: hidden;
+}
+
+.homepageList__listItemReadMe {
+  color: blue;
+  padding-bottom: 12px;
+}
+
+.dataById__listUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 40rem;
+}
+
+.dataById__listName {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.dataById__listEntry {
+  line-height: 2;
+  margin-top: 24px;
+}
+
+.post {
+  width: 50%;
+  border: 1px solid silver;
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
+  margin: 0 auto;
+  margin-top: 48px;
+  padding: 10px 15px 10px 15px;
+}
+
+.post__form {
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post__formTitle {
+  resize: none;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.post__formEntry {
+  padding-top: 10px;
+  height: 10rem;
+  resize: none;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.post__labelUploadImg {
+  margin-top: 16px;
+}
+
+.post__inputUploadImg {
+  outline: none;
+  height: 20px;
+}
+
+.post__linkContainer {
+  margin-top: 10px;
+}
+
+input {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+::-webkit-file-upload-button {
+  background: black;
+  color: red;
+}
+/*# sourceMappingURL=App.css.map */

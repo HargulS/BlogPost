@@ -1,0 +1,45 @@
+.post {
+  width: 50%;
+  border: 1px solid silver;
+  box-shadow: 5px 5px 10px;
+  margin: 0 auto;
+  margin-top: 48px;
+  padding: 10px 15px 10px 15px;
+  &__form {
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__formTitle {
+    resize: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+  }
+  &__formEntry {
+    padding-top: 10px;
+    height: 10rem;
+    resize: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+  }
+  &__labelUploadImg {
+    margin-top: 16px;
+  }
+  &__inputUploadImg {
+    outline: none;
+    height: 20px;
+  }
+  &__linkContainer {
+    margin-top: 10px;
+  }
+}
+input {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  outline: none;
+}
+::-webkit-file-upload-button {
+  background: black;
+  color: red;
+}
